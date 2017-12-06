@@ -1,5 +1,5 @@
-# use latest Node LTS (Boron)
-FROM node:boron
+# use upcoming Node LTS
+FROM node:8
 
 # install Firebase CLI
-RUN npm install -g firebase-tools
+RUN yarn global add firebase-tools
