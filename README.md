@@ -8,8 +8,8 @@ This image was created specifically for usage with continuous integration system
 
 ### Base Image
 
-* [node (boron)](https://hub.docker.com/r/library/node/) - The latest Node LTS (Boron) image
+* [node 8 (carbon)](https://hub.docker.com/r/library/node/) - The upcoming Node LTS image
 
 ### Additional Node Modules
 
-* [Firebase CLI](https://github.com/firebase/firebase-tools) - Firebase Command Line Tools. Required to deploy to Firebase.
+* [Firebase CLI](https://github.com/firebase/firebase-tools) - yarn install of Firebase Command Line Tools. Required to deploy to Firebase.
