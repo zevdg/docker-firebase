@@ -8,4 +8,4 @@ RUN echo "deb http://ftp.us.debian.org/debian sid main" >> /etc/apt/sources.list
 	&& apt-get clean
 	
 # install Firebase CLI
-RUN yarn global add firebase-tools
+RUN yarn global add firebase-tools@4.2.1
