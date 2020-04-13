@@ -8,7 +8,7 @@ This image was created specifically for usage with continuous integration system
 
 ### Base Image
 
-- [node 12 (carbon)](https://hub.docker.com/r/library/node/) - The current Node LTS image
+- [node 12](https://hub.docker.com/r/library/node/) - The current Node LTS image
 
 ### Additional Node Modules
 
